@@ -6,17 +6,17 @@
 
     <groupId>com.github.leroyguillaume</groupId>
     <artifactId>keycloak-bcrypt</artifactId>
-    <version>1.1.0</version>
+    <version>0.1.0</version>
 
     <properties>
         <!-- Maven -->
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
 
         <!-- Dependencies -->
         <jbcrypt.version>0.4</jbcrypt.version>
-        <jboss.logging.version>3.3.1.Final</jboss.logging.version>
-        <keycloak.version>6.0.1</keycloak.version>
+        <jboss.logging.version>3.4.1.Final</jboss.logging.version>
+        <keycloak.version>8.0.1</keycloak.version>
     </properties>
 
     <dependencies>
